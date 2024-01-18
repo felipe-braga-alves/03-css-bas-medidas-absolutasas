@@ -1,0 +1,12 @@
+/*
+    Medidas absolutas são exatamente isso, uma medida absoluta, uma medida em 12cm, terá 12 cm independente da tela na qual seja exibida, uma medida de 32px terá 32px independente da resolução total da tela, logo em telas de maior resolução acabara sendo visualmente menor.
+    É bom tomar cuidado ao usar medidas absolutas, pois o seu site pode não ficar responsivo em diferentes dispositivos, então não é indicado usalas para elementos muito pequenos ou grandes.
+
+    Existe muitas medidas relativas e absolutas, porem a W3C recomenda a uytilização de pixels para absolutas e EM ou REM para relativas
+*/
+
+.pixel{
+    background-color: aquamarine;
+    width: 1000px;
+    height: 100px;
+}
